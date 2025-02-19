@@ -14,84 +14,84 @@
             <div class="row d-flex justify-content-center flex-wrap">
     <!-- Botão 1: Roubo ou Furto de Veículos -->                
                 <div class="card" style="width: 15rem; height: 25rem">
-                    <img src="./assets/icons/car-icon.svg" class="card-img-top w-100" alt="Roubo ou Furto de Veículos"/>
+                    <img src="../assets/icons/car-icon.svg" class="card-img-top w-100" alt="Roubo ou Furto de Veículos"/>
                     <div class="card-body d-flex flex-column justify-content-between">
                         <button type="submit" class="btn border border-danger text-danger bg-transparent w-100" name="tipo_ocorrencia" value="1">Roubo ou Furto de Veículos</button>
                     </div>
                 </div>
     <!-- Botão 2: Roubo de Documentos, Celulares e/ou Objetos -->
                 <div class="card" style="width: 15rem; height: 25rem">
-                    <img src="./assets/icons/robbery-icon.svg" class="card-img-top w-100" alt="Roubo de Documentos, Celulares e/ou Objetos"/>
+                    <img src="../assets/icons/robbery-icon.svg" class="card-img-top w-100" alt="Roubo de Documentos, Celulares e/ou Objetos"/>
                     <div class="card-body d-flex flex-column justify-content-between">
                         <button type="submit" class="btn border border-danger text-danger bg-transparent w-100" name="tipo_ocorrencia" value="2">Roubo de Documentos, Celulares e/ou Objetos</button>
                     </div>
                 </div>
     <!-- Botão 3: Furto de Documentos, Celulares e/ou Objetos -->
                 <div class="card" style="width: 15rem; height: 25rem">
-                    <img src="./assets/icons/theft-icon.svg" class="card-img-top w-100" alt="Furto de Documentos, Celulares e/ou Objetos"/>
+                    <img src="../assets/icons/theft-icon.svg" class="card-img-top w-100" alt="Furto de Documentos, Celulares e/ou Objetos"/>
                     <div class="card-body d-flex flex-column justify-content-between">
                         <button type="submit" class="btn border border-danger text-danger bg-transparent w-100" name="tipo_ocorrencia" value="3">Furto de Documentos, Celulares e/ou Objetos</button>
                     </div>
                 </div>
     <!-- Botão 4: Fraude e Estelionato -->
                 <div class="card" style="width: 15rem; height: 25rem">
-                    <img src="./assets/icons/fraud-icon.svg" class="card-img-top w-100" alt="Fraude e Estelionato"/>
+                    <img src="../assets/icons/fraud-icon.svg" class="card-img-top w-100" alt="Fraude e Estelionato"/>
                     <div class="card-body d-flex flex-column justify-content-between">
                         <button type="submit" class="btn border border-danger text-danger bg-transparent w-100" name="tipo_ocorrencia" value="4">Fraude e Estelionato</button>
                     </div>
                 </div>
     <!-- Botão 5: Perda de Documentos, Celulares e/ou Objetos -->
                 <div class="card" style="width: 15rem; height: 25rem">
-                    <img src="./assets/icons/lost-documents-icon.svg" class="card-img-top w-100" alt="Perda de Documentos, Celulares e/ou Objetos"/>
+                    <img src="../assets/icons/lost-documents-icon.svg" class="card-img-top w-100" alt="Perda de Documentos, Celulares e/ou Objetos"/>
                     <div class="card-body d-flex flex-column justify-content-between">
                         <button type="submit" class="btn border border-danger text-danger bg-transparent w-100" name="tipo_ocorrencia" value="5">Perda de Documentos, Celulares e/ou Objetos</button>
                     </div>
                 </div>
     <!-- Botão 6: Furto de Fios e/ou Cabos em vias públicas -->
                 <div class="card" style="width: 15rem; height: 25rem">
-                    <img src="./assets/icons/cable-icon.svg" class="card-img-top w-100" alt="Furto de Fios e/ou Cabos em vias públicas"/>
+                    <img src="../assets/icons/cable-icon.svg" class="card-img-top w-100" alt="Furto de Fios e/ou Cabos em vias públicas"/>
                     <div class="card-body d-flex flex-column justify-content-between">
                         <button type="submit" class="btn border border-danger text-danger bg-transparent w-100" name="tipo_ocorrencia" value="6">Furto de Fios e/ou Cabos em vias públicas</button>
                     </div>
                 </div>
     <!-- Botão 7: Desaparecimento de Pessoas -->
                 <div class="card" style="width: 15rem; height: 25rem">
-                    <img src="./assets/icons/missing-icon.svg" class="card-img-top w-100" alt="Desaparecimento de Pessoas"/>
+                    <img src="../assets/icons/missing-icon.svg" class="card-img-top w-100" alt="Desaparecimento de Pessoas"/>
                     <div class="card-body d-flex flex-column justify-content-between">
                         <button type="submit" class="btn border border-danger text-danger bg-transparent w-100" name="tipo_ocorrencia" value="7">Desaparecimento de Pessoas</button>
                     </div>
                 </div>
     <!-- Botão 8: Acidente de Trânsito sem Vítimas -->
                 <div class="card" style="width: 15rem; height: 25rem">
-                    <img src="./assets/icons/car-icon.svg" class="card-img-top w-100" alt="Acidente de Trânsito sem Vítimas"/>
+                    <img src="../assets/icons/car-icon.svg" class="card-img-top w-100" alt="Acidente de Trânsito sem Vítimas"/>
                     <div class="card-body d-flex flex-column justify-content-between">
                         <button type="submit" class="btn border border-danger text-danger bg-transparent w-100" name="tipo_ocorrencia" value="8">Acidente de Trânsito sem Vítimas</button>
                     </div>
                 </div>
     <!-- Botão 9: Injúria, Calúnia ou Difamação -->
                 <div class="card" style="width: 15rem; height: 25rem">
-                    <img src="./assets/icons/defamation-icon.svg" class="card-img-top w-100" alt="Injúria, Calúnia ou Difamação"/>
+                    <img src="../assets/icons/defamation-icon.svg" class="card-img-top w-100" alt="Injúria, Calúnia ou Difamação"/>
                     <div class="card-body d-flex flex-column justify-content-between">
                         <button type="submit" class="btn border border-danger text-danger bg-transparent w-100" name="tipo_ocorrencia" value="9">Injúria, Calúnia ou Difamação</button>
                     </div>
                 </div>
     <!-- Botão 10: Encontro de Pessoas -->
                 <div class="card" style="width: 15rem; height: 25rem">
-                    <img src="./assets/icons/missing-icon.svg" class="card-img-top w-100" alt="Encontro de Pessoas"/>
+                    <img src="../assets/icons/missing-icon.svg" class="card-img-top w-100" alt="Encontro de Pessoas"/>
                     <div class="card-body d-flex flex-column justify-content-between">
                         <button type="submit" class="btn border border-danger text-danger bg-transparent w-100" name="tipo_ocorrencia" value="10">Encontro de Pessoas</button>
                     </div>
                 </div>
     <!-- Botão 11: Violência Doméstica contra Mulher -->
                 <div class="card" style="width: 15rem; height: 25rem">
-                    <img src="./assets/icons/sad-icon.svg" class="card-img-top w-100" alt="Violência Doméstica contra Mulher"/>
+                    <img src="../assets/icons/sad-icon.svg" class="card-img-top w-100" alt="Violência Doméstica contra Mulher"/>
                     <div class="card-body d-flex flex-column justify-content-between">
                         <button type="submit" class="btn border border-danger text-danger bg-transparent w-100" name="tipo_ocorrencia" value="11">Violência Doméstica contra Mulher</button>
                     </div>
                 </div>
     <!-- Botão 12: Outras Ocorrências -->
                 <div class="card" style="width: 15rem; height: 25rem">
-                    <img src="./assets/icons/others-icon.svg" class="card-img-top w-100" alt="Outras Ocorrências"/>
+                    <img src="../assets/icons/others-icon.svg" class="card-img-top w-100" alt="Outras Ocorrências"/>
                     <div class="card-body d-flex flex-column justify-content-between">
                         <button type="submit" class="btn border border-danger text-danger bg-transparent w-100" name="tipo_ocorrencia" value="12">Outras Ocorrências</button>
                     </div>

@@ -19,7 +19,7 @@
     <div class="container mt-4">
         <h1>Formulário Boletim de Ocorrência</h1>
         <h2>Local e Hora da Ocorrência</h2>
-        <form action="boletim.php" method="post">
+        <form action="./informacoes_delatante.php" method="post">
             <div class="row">
                 <div class="col">
                     <label for="hora_do_fato" class="form-label">Data do Fato:</label>
@@ -113,7 +113,7 @@
                                     echo '  </div>';
                                     echo '  <div class="col">';
                                     echo '      <label for="comp_local_do_fato" class="form-label">Complemento:</label>';
-                                    echo '      <input type="text" name="comp_local_do_fato" class="form-label w-100" required>';
+                                    echo '      <input type="text" name="comp_local_do_fato" class="form-label w-100">';
                                     echo '  </div>';
                                     echo '</div>';
                                 break;
@@ -193,7 +193,7 @@
                                     echo '  </div>';
                                     echo '  <div class="col">';
                                     echo '      <label for="comp_local_do_fato" class="form-label">Complemento:</label>';
-                                    echo '      <input type="text" name="comp_local_do_fato" class="form-label w-100" required>';
+                                    echo '      <input type="text" name="comp_local_do_fato" class="form-label w-100">';
                                     echo '  </div>';
                                     echo '</div>';
                                 break;
@@ -273,7 +273,7 @@
                                     echo '  </div>';
                                     echo '  <div class="col">';
                                     echo '      <label for="comp_local_do_fato" class="form-label">Complemento:</label>';
-                                    echo '      <input type="text" name="comp_local_do_fato" class="form-label w-100" required>';
+                                    echo '      <input type="text" name="comp_local_do_fato" class="form-label w-100">';
                                     echo '  </div>';
                                     echo '</div>';
                                 break;
@@ -347,7 +347,7 @@
                                     echo '  </div>';
                                     echo '  <div class="col">';
                                     echo '      <label for="comp_local_do_fato" class="form-label">Complemento:</label>';
-                                    echo '      <input type="text" name="comp_local_do_fato" class="form-label w-100" required>';
+                                    echo '      <input type="text" name="comp_local_do_fato" class="form-label w-100">';
                                     echo '  </div>';
                                     echo '</div>';
                                 break;
@@ -430,7 +430,7 @@
                                     echo '  </div>';
                                     echo '  <div class="col">';
                                     echo '      <label for="comp_local_do_fato" class="form-label">Complemento:</label>';
-                                    echo '      <input type="text" name="comp_local_do_fato" class="form-label w-100" required>';
+                                    echo '      <input type="text" name="comp_local_do_fato" class="form-label w-100">';
                                     echo '  </div>';
                                     echo '</div>';
                                 break;
@@ -504,7 +504,7 @@
                                     echo '  </div>';
                                     echo '  <div class="col">';
                                     echo '      <label for="comp_local_do_fato" class="form-label">Complemento:</label>';
-                                    echo '      <input type="text" name="comp_local_do_fato" class="form-label w-100" required>';
+                                    echo '      <input type="text" name="comp_local_do_fato" class="form-label w-100">';
                                     echo '  </div>';
                                     echo '</div>';
                                 break;
@@ -572,7 +572,7 @@
                                     echo '  </div>';
                                     echo '  <div class="col">';
                                     echo '      <label for="comp_local_do_fato" class="form-label">Complemento:</label>';
-                                    echo '      <input type="text" name="comp_local_do_fato" class="form-label w-100" required>';
+                                    echo '      <input type="text" name="comp_local_do_fato" class="form-label w-100">';
                                     echo '  </div>';
                                     echo '</div>';
                                 break;
