@@ -30,9 +30,9 @@
                                 echo '<h2>Triagem: Agressão Física</h2>';
                                 echo '<h4>Você foi ameaçado(a) quando levaram seu veículo?</h4>';
                                 echo '<div class="container col-4">';
-                                echo '<button type="submit" class="btn btn-primary bg-secondary w-100" name="resposta_triagem" value="1.1">Não vi ou Não fui ameaçado</button>';
-                                echo '<button type="submit" class="btn btn-primary bg-secondary w-100" name="resposta_triagem" value="1.2">Sim, mas não houve agressão física</button>';
-                                echo '<button type="submit" class="btn btn-primary bg-secondary w-100" name="resposta_triagem" value="2.3">Sim, e eu fui agredido durante o roubo</button>';
+                                echo '<button type="submit" class="btn btn-primary bg-secondary w-100" name="resposta_triagem" value="Não vi ou Não fui ameaçado">Não vi ou Não fui ameaçado</button>';
+                                echo '<button type="submit" class="btn btn-primary bg-secondary w-100" name="resposta_triagem" value="Sim, mas não houve agressão física">Sim, mas não houve agressão física</button>';
+                                echo '<button type="submit" class="btn btn-primary bg-secondary w-100" name="resposta_triagem" value="Sim, e eu fui agredido durante o roubo">Sim, e eu fui agredido durante o roubo</button>';
                                 echo '</div>';
                                 break;
                         // Questionário: Roubo de Documentos, Celulares e/ou Objetos
@@ -40,8 +40,8 @@
                                 echo '<h2>Triagem: Roubo</h2>';
                                 echo '<h4>Tipo de documentos e objetos:</h4>';
                                 echo '<div class="container col-4">';
-                                echo '<button type="submit" class="btn btn-primary bg-secondary w-100" name="resposta_triagem" value="2.1">Documento - Somente RG</button>';
-                                echo '<button type="submit" class="btn btn-primary bg-secondary w-100" name="resposta_triagem" value="2.2">Documentos e/ou Objetos</button>';
+                                echo '<button type="submit" class="btn btn-primary bg-secondary w-100" name="resposta_triagem" value="Documento - Somente RG">Documento - Somente RG</button>';
+                                echo '<button type="submit" class="btn btn-primary bg-secondary w-100" name="resposta_triagem" value="Documentos e/ou Objetos">Documentos e/ou Objetos</button>';
                                 echo '</div>';
                                 break;
                         // Questionário: Furto de Documentos, Celulares e/ou Objetos
@@ -49,8 +49,8 @@
                                 echo '<h2>Triagem: Furto</h2>';
                                 echo '<h4>Tipo de documentos e objetos:</h4>';
                                 echo '<div class="container col-4">';
-                                echo '<button type="submit" class="btn btn-primary bg-secondary w-100" name="resposta_triagem" value="3.1">Documento - Somente RG</button>';
-                                echo '<button type="submit" class="btn btn-primary bg-secondary w-100" name="resposta_triagem" value="3.2">Documentos e/ou Objetos</button>';
+                                echo '<button type="submit" class="btn btn-primary bg-secondary w-100" name="resposta_triagem" value="Documento - Somente RG">Documento - Somente RG</button>';
+                                echo '<button type="submit" class="btn btn-primary bg-secondary w-100" name="resposta_triagem" value="Documentos e/ou Objetos">Documentos e/ou Objetos</button>';
                                 echo '</div>';
                                 break;
                         // Questionário: Fraude e Estelionato
@@ -58,10 +58,10 @@
                                 echo '<h2>Triagem: Fraude e Estelionato</h2>';
                                 echo '<h4>Informe o canal em que a fraude foi cometida:</h4>';
                                 echo '<div class="container col-4">';
-                                echo '<button type="submit" class="btn btn-primary bg-secondary w-100" name="resposta_triagem" value="4.1">Foi cometida pela internet</button>';
-                                echo '<button type="submit" class="btn btn-primary bg-secondary w-100" name="resposta_triagem" value="4.2">Foi cometida por contato telefônico</button>';
-                                echo '<button type="submit" class="btn btn-primary bg-secondary w-100" name="resposta_triagem" value="4.3">Foi cometida presencialmente</button>';
-                                echo '<button type="submit" class="btn btn-primary bg-secondary w-100" name="resposta_triagem" value="4.4">Nenhuma das opções acima</button>';
+                                echo '<button type="submit" class="btn btn-primary bg-secondary w-100" name="resposta_triagem" value="Foi cometida pela internet">Foi cometida pela internet</button>';
+                                echo '<button type="submit" class="btn btn-primary bg-secondary w-100" name="resposta_triagem" value="Foi cometida por contato telefônico">Foi cometida por contato telefônico</button>';
+                                echo '<button type="submit" class="btn btn-primary bg-secondary w-100" name="resposta_triagem" value="Foi cometida presencialmente">Foi cometida presencialmente</button>';
+                                echo '<button type="submit" class="btn btn-primary bg-secondary w-100" name="resposta_triagem" value="Nenhuma das opções acima">Nenhuma das opções acima</button>';
                                 echo '</div>';
                                 break;
                         // Questionário: Perda de Documentos, Celulares e/ou Objetos
@@ -69,8 +69,8 @@
                                 echo '<h2>Triagem: Perda</h2>';
                                 echo '<h4>Tipo de documentos e objetos:</h4>';
                                 echo '<div class="container col-4">';
-                                echo '<button type="submit" class="btn btn-primary bg-secondary w-100" name="resposta_triagem" value="5.1">Documento - Somente RG</button>';
-                                echo '<button type="submit" class="btn btn-primary bg-secondary w-100" name="resposta_triagem" value="5.2">Documentos e/ou Objetos</button>';
+                                echo '<button type="submit" class="btn btn-primary bg-secondary w-100" name="resposta_triagem" value="Documento - Somente RG">Documento - Somente RG</button>';
+                                echo '<button type="submit" class="btn btn-primary bg-secondary w-100" name="resposta_triagem" value="Documentos e/ou Objetos">Documentos e/ou Objetos</button>';
                                 echo '</div>';
                                 break;
                         // Questionário: Furto de Fios e/ou Cabos
@@ -78,8 +78,8 @@
                                 echo '<h2>Triagem: Fios e/ou Cabos da Empresa</h2>';
                                 echo '<h4><strong>ATENÇÃO: A pergunta a seguir refere-se apenas aos casos de furtos de fios/cabos de empresas concessionárias de serviço público: Os itens furtados pertencem a empresa concessionária de serviço público?</strong></h4>';
                                 echo '<div class="container col-4">';
-                                echo '<button type="submit" class="btn btn-primary bg-secondary w-100" name="resposta_triagem" value="6.1">Sim</button>';
-                                echo '<button type="submit" class="btn btn-primary bg-secondary w-100" name="resposta_triagem" value="6.2">Não</button>';
+                                echo '<button type="submit" class="btn btn-primary bg-secondary w-100" name="resposta_triagem" value="Sim">Sim</button>';
+                                echo '<button type="submit" class="btn btn-primary bg-secondary w-100" name="resposta_triagem" value="Não">Não</button>';
                                 echo '</div>';
                                 break;
                         // Questionário: Desaparecimento de Pessoas
@@ -87,9 +87,9 @@
                                 echo '<h2>Triagem: Desaparecimentos Anteriores</h2>';
                                 echo '<h4>A pessoa já desapareceu outras vezes?</h4>';
                                 echo '<div class="container col-4">';
-                                echo '<button type="submit" class="btn btn-primary bg-secondary w-100" name="resposta_triagem" value="7.1">Sim</button>';
-                                echo '<button type="submit" class="btn btn-primary bg-secondary w-100" name="resposta_triagem" value="7.2">Não</button>';
-                                echo '<button type="submit" class="btn btn-primary bg-secondary w-100" name="resposta_triagem" value="7.3">Não sei dizer</button>';
+                                echo '<button type="submit" class="btn btn-primary bg-secondary w-100" name="resposta_triagem" value="Sim">Sim</button>';
+                                echo '<button type="submit" class="btn btn-primary bg-secondary w-100" name="resposta_triagem" value="Não">Não</button>';
+                                echo '<button type="submit" class="btn btn-primary bg-secondary w-100" name="resposta_triagem" value="Não sei dizer">Não sei dizer</button>';
                                 echo '</div>';
                                 break;
                         // Questionário: Acidente de Trânsito sem Vítimas
@@ -97,8 +97,8 @@
                                 echo '<h2>Triagem: Ferimentos</h2>';
                                 echo '<h4>Alguém se feriu no acidente?</h4>';
                                 echo '<div class="container col-4">';
-                                echo '<button type="submit" class="btn btn-primary bg-secondary w-100" name="resposta_triagem" value="8.1">Sim</button>';
-                                echo '<button type="submit" class="btn btn-primary bg-secondary w-100" name="resposta_triagem" value="8.2">Não</button>';
+                                echo '<button type="submit" class="btn btn-primary bg-secondary w-100" name="resposta_triagem" value="Sim">Sim</button>';
+                                echo '<button type="submit" class="btn btn-primary bg-secondary w-100" name="resposta_triagem" value="Não">Não</button>';
                                 echo '</div>';
                                 break;
                         // Questionário: Injúria, Calúnia ou Difamação
@@ -106,13 +106,13 @@
                                 echo '<h2>Triagem: Diversidade e Intolerância</h2>';
                                 echo '<h4>Trata-se de ocorrência envolvendo?</h4>';
                                 echo '<div class="container col-4">';
-                                echo '<button type="submit" class="btn btn-primary bg-secondary w-100" name="resposta_triagem" value="9.1">Homofobia</button>';
-                                echo '<button type="submit" class="btn btn-primary bg-secondary w-100" name="resposta_triagem" value="9.2">Transfobia</button>';
-                                echo '<button type="submit" class="btn btn-primary bg-secondary w-100" name="resposta_triagem" value="9.3">Racial/Etnia/Cor</button>';
-                                echo '<button type="submit" class="btn btn-primary bg-secondary w-100" name="resposta_triagem" value="9.4">Origem</button>';
-                                echo '<button type="submit" class="btn btn-primary bg-secondary w-100" name="resposta_triagem" value="9.5">Religioso</button>';
-                                echo '<button type="submit" class="btn btn-primary bg-secondary w-100" name="resposta_triagem" value="9.6">Outro tipo de intolerância ou discriminação</button>';
-                                echo '<button type="submit" class="btn btn-primary bg-secondary w-100" name="resposta_triagem" value="9.7">Não envolveu intolerância ou discriminação</button>';
+                                echo '<button type="submit" class="btn btn-primary bg-secondary w-100" name="resposta_triagem" value="Homofobia">Homofobia</button>';
+                                echo '<button type="submit" class="btn btn-primary bg-secondary w-100" name="resposta_triagem" value="Transfobia">Transfobia</button>';
+                                echo '<button type="submit" class="btn btn-primary bg-secondary w-100" name="resposta_triagem" value="Racial/Etnia/Cor">Racial/Etnia/Cor</button>';
+                                echo '<button type="submit" class="btn btn-primary bg-secondary w-100" name="resposta_triagem" value="Origem">Origem</button>';
+                                echo '<button type="submit" class="btn btn-primary bg-secondary w-100" name="resposta_triagem" value="Religioso">Religioso</button>';
+                                echo '<button type="submit" class="btn btn-primary bg-secondary w-100" name="resposta_triagem" value="Outro tipo de intolerância ou discriminação">Outro tipo de intolerância ou discriminação</button>';
+                                echo '<button type="submit" class="btn btn-primary bg-secondary w-100" name="resposta_triagem" value="Não envolveu intolerância ou discriminação">Não envolveu intolerância ou discriminação</button>';
                                 echo '</div>';
                                 break;
                         // Questionário: Encontro de Pessoas
@@ -120,8 +120,8 @@
                                 echo '<h2>Triagem: Motivo do Desaparecimento</h2>';
                                 echo '<h4>A pessoa desapareceu por que foi vítima de um crime?</h4>';
                                 echo '<div class="container col-4">';
-                                echo '<button type="submit" class="btn btn-primary bg-secondary w-100" name="resposta_triagem" value="10.1">Sim</button>';
-                                echo '<button type="submit" class="btn btn-primary bg-secondary w-100" name="resposta_triagem" value="10.2">Não</button>';
+                                echo '<button type="submit" class="btn btn-primary bg-secondary w-100" name="resposta_triagem" value="Sim">Sim</button>';
+                                echo '<button type="submit" class="btn btn-primary bg-secondary w-100" name="resposta_triagem" value="Não">Não</button>';
                                 echo '</div>';
                                 break;
                         // Questionário: Violência Doméstica
@@ -129,16 +129,16 @@
                                 echo '<h2>Triagem: Vítima</h2>';
                                 echo '<h4>Esse formulário se destina SOMENTE para vítimas. Deseja prosseguir?</h4>';
                                 echo '<div class="container col-4">';
-                                echo '<button type="submit" class="btn btn-primary bg-secondary w-100" name="resposta_triagem" value="11.1">Sim</button>';
-                                echo '<button type="submit" class="btn btn-primary bg-secondary w-100" name="resposta_triagem" value="11.2">Não</button>';
+                                echo '<button type="submit" class="btn btn-primary bg-secondary w-100" name="resposta_triagem" value="Sim">Sim</button>';
+                                echo '<button type="submit" class="btn btn-primary bg-secondary w-100" name="resposta_triagem" value="Não">Não</button>';
                                 echo '</div>';
                                 break;
                         // Questionário: Outras Ocorrências
                             case '12':
                                 echo '<h2>Triagem: Confirmação</h2>';
-                                echo '<h4>Analise se sua ocorrência REALMENTE não está entre as outras</h4>';
+                                echo '<h4>Analise se sua ocorrência REALMENTE não está entre as outras?</h4>';
                                 echo '<div class="container col-4">';
-                                echo '<button type="submit" class="btn btn-primary bg-secondary w-100" name="resposta_triagem" value="12.1">Avançar</button>';
+                                echo '<button type="submit" class="btn btn-primary bg-secondary w-100" name="resposta_triagem" value="Avançar">Avançar</button>';
                                 echo '</div>';
                                 break;
 
