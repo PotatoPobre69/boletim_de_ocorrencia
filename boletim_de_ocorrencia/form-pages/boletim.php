@@ -43,11 +43,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário - Boletim de Ocorrência - Consulta</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
+    <header>
+        <div class="top-bar-left">
+            <img src="../assets/images/logo.png" alt="Logo GOV">
+        </div>
+        <div class="top-bar-right">
+            <!-- Ícones de redes sociais -->
+            <a href="https://www.facebook.com/PoliciaCivildeSP/#"><img src="https://img.icons8.com/?size=100&id=118497&format=png&color=000000" alt="Logo Facebook"></a>
+            <a href="https://x.com/policia_civil?mx=2"><img src="https://img.icons8.com/?size=100&id=phOKFKYpe00C&format=png&color=FFFFFF" alt="Logo Twitter"></a>
+            <a href="https://www.instagram.com/policiacivil_sp/"><img src="https://img.icons8.com/?size=100&id=Xy10Jcu1L2Su&format=png&color=000000" alt="Logo Instagram"></a>
+            <a href="https://www.youtube.com/channel/UCI1wXTz-JNToCxKyl2PbLBg"><img src="https://img.icons8.com/?size=100&id=19318&format=png&color=000000" alt="Logo YouTube"></a>
+        </div>
+    </header>
+
+    <section class="header-banner">
+        <div class="logo-policia">
+            <img src="../assets/images/brasao.png" alt="Brasão Polícia Civil">
+        </div>
+        <div class="titulo-policia">
+            <h1>Polícia Civil</h1>
+            <h2>Secretaria de Segurança Pública</h2>
+        </div>
+    </section>
+
+    <nav class="main-nav">
+        <ul>
+            <li><a href="../index.html">Início </a></li>
+            <span>/</span>
+            <li> Consulta </li>
+        </ul>
+    </nav>
+
     <div class="container mt-4">
-        <h1>Formulário Boletim de Ocorrência</h1>
         <h2>Boletim Completo:</h2>
 
         <div class="row w-100">
@@ -300,24 +331,22 @@
                 <?php
                     echo '<strong>Telefone 1:</strong>';
                 ?>
-                <div class="row w-100">
+                <br/>
                     <?php 
                         echo 'Contato | ';
                         echo $tel_contato_1_delatante, ' | ';
                         echo $ramal_contato_1_delatante;
                     ?>
-                </div>
             </div>
             <div class="col">
                 <?php
                     echo '<strong>Telefone 2:</strong>';
                 ?>
-                <div class="row w-100">
+                <br/>
                     <?php 
                         echo $tipo_contato_2, ' | ';
                         echo $tel_contato_2;
                     ?>
-                </div>
             </div>
         </div>
         <h3>Ocorrência:</h3>
@@ -328,7 +357,11 @@
                 ?>
             </div>
         </div>
-        <a href="./formulario_boletim.php" class="btn btn-danger">Voltar ao Início</a>
+        <div class="row w-100">
+            <div class="container pt-4">
+                <a href="./formulario_boletim.php" class="btn btn-danger w-100 mb-2">Voltar ao Início</a>
+            </div>
+        </div>
     </div>
 </body>
 </html>

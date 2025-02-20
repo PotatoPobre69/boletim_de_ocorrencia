@@ -13,11 +13,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário - Boletim de Ocorrência - Etapa 2</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
+    <header>
+        <div class="top-bar-left">
+            <img src="../assets/images/logo.png" alt="Logo GOV">
+        </div>
+        <div class="top-bar-right">
+            <!-- Ícones de redes sociais -->
+            <a href="https://www.facebook.com/PoliciaCivildeSP/#"><img src="https://img.icons8.com/?size=100&id=118497&format=png&color=000000" alt="Logo Facebook"></a>
+            <a href="https://x.com/policia_civil?mx=2"><img src="https://img.icons8.com/?size=100&id=phOKFKYpe00C&format=png&color=FFFFFF" alt="Logo Twitter"></a>
+            <a href="https://www.instagram.com/policiacivil_sp/"><img src="https://img.icons8.com/?size=100&id=Xy10Jcu1L2Su&format=png&color=000000" alt="Logo Instagram"></a>
+            <a href="https://www.youtube.com/channel/UCI1wXTz-JNToCxKyl2PbLBg"><img src="https://img.icons8.com/?size=100&id=19318&format=png&color=000000" alt="Logo YouTube"></a>
+        </div>
+    </header>
+
+    <section class="header-banner">
+        <div class="logo-policia">
+            <img src="../assets/images/brasao.png" alt="Brasão Polícia Civil">
+        </div>
+        <div class="titulo-policia">
+            <h1>Polícia Civil</h1>
+            <h2>Secretaria de Segurança Pública</h2>
+        </div>
+    </section>
+
+    <nav class="main-nav">
+        <ul>
+            <li><a href="../index.html">Início </a></li>
+            <span>/</span>
+            <li><a href="./formulario_boletim.php"> Relatar Ocorrência </a></li>
+            <span>/</span>
+            <li><a href="./questionario_boletim.php"> Triagem </a></li>
+            <span>/</span>
+            <li> Local e Hora </li>
+        </ul>
+    </nav>
+
     <div class="container mt-4">
-        <h1>Formulário Boletim de Ocorrência</h1>
         <h2>Local e Hora da Ocorrência</h2>
         <form action="./informacoes_delatante.php" method="post">
             <div class="row">
@@ -30,8 +65,6 @@
                     <input type="time" name="hora_do_fato" class="form-control w-100" required>
                 </div>
             </div>
-            <div class="row">
-            
                     <?php
                     if (isset($tipo_ocorrencia))
                         {
@@ -442,7 +475,7 @@
                                     break;
                             // Escolha Local: Violência Doméstica contra Mulher
                                 case '11':
-                                // Pesquisar Local: Acidente de Trânsito sem Vítimas
+                                // Pesquisar Local: Violência Doméstica contra Mulher
                                     echo '<label for="informacoes-local" class="form-label"><strong>Informações Local do Fato:</strong></label>';
                                     echo '<div class="row" id="informacoes-local">';
                                     echo '  <div class="col">';
@@ -457,7 +490,6 @@
                                     echo '<div class="row">';
                                     echo '  <div class="col">';
                                     echo '      <label for="estado_local_do_fato" class="form-label">Estado (UF):*</label>';
-                                    echo '      <select class="form-select w-100" name="estado_local_do_fato" required>';
                                     echo '      <select class="form-select w-100" name="estado_local_do_fato" required>';
                                     echo '          <option selected disabled>Selecione o Estado</option>';
                                     echo '          <option value="Acre">Acre</option>';
@@ -580,9 +612,10 @@
                             }
                         }
                     ?>
+            <div class="container pt-4">
+                <button type="submit" class="btn btn-primary w-100 mb-2">Próximo</button>
+                <a href="./questionario_boletim.php" class="btn btn-danger w-100 mb-2">Voltar</a>
             </div>
-            <a href="./questionario_boletim.php" class="btn btn-danger">Voltar</a>
-            <button type="submit" class="btn btn-primary">Próximo</button>
         </form>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
